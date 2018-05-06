@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Forms</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+       <div class="basic_form">
+        <form method="" action="">
+            <div class="form_group">
+                <label for="username">Username</label> <br />
+                <input id="username" class="inputfield" type="text" name="" placeholder="Username" maxlength="15" />
+            </div>
+
+            <div class="form_group">
+                <label for="email">Email</label><br />
+                <input id="email" class="inputfield" type="email" name="" placeholder="email@.com" />
+            </div>
+            
+            <div class="form_group">
+              <label for="pass">Password</label> <br/>
+              <input id="pass" class="inputfield" type="password" name="" placeholder="password"/>
+            </div>
+            <div class="form_group">
+                <label for="edu">Education</label><br/>
+                <select name="" class="inputfield" >
+                    <option value="">SSC</option>
+                    <option value="">HSC</option>
+                    <option value="" selected>BSC</option>
+                    <option value="">MSC</option>
+                </select> 
+            </div>
+            <div class="form_group">
+                <label for="gender">Gender</label><br/>
+                <input id="gender" type="radio" name="gender" checked/> Male <br/>
+                <input id="gender" type="radio" name="gender"/> Female
+            </div>
+            <div class="form_group">
+                <label for="lang">Programming languages</label><br/>
+                <input type="checkbox" name=""> C <br/>
+                <input type="checkbox" name=""> PHP <br/>
+                <input type="checkbox" name=""> Java <br/>
+                <input type="checkbox" name=""> Python<br/>
+            </div>
+            <div class="form_group">
+                <label for="msg">Message</label><br/>
+                <textarea rows="5" cols="10" placeholder="Text" class="inputfield"></textarea>
+            </div>
+            <input type="submit" class="add_data" value="Add Data" >
+            </form>
+        </div>
+        
+    </body>
+</html>
